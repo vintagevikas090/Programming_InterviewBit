@@ -86,11 +86,11 @@ class Solution:
             head.next = curr
         
         # now skip k nodes (curr is where to start)
+        # we go to just before the next node which should be called recursively
         count = 0
         while curr is not None and count < k-1:
             curr = curr.next
-            count +=1
-        # we go to just before the next node which should be called recursively
+            count += 1
         if curr is not None:
             curr.next = self.k_alt_node_rev(curr.next, k)
         
