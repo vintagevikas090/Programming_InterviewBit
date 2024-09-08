@@ -1,5 +1,5 @@
 '''
-roblem Description
+Problem Description
 
 Given a linked list A of length N and an integer B.
 
