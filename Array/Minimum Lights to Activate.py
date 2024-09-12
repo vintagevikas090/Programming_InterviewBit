@@ -97,4 +97,4 @@ class Solution:
             
 
 #(***)
-if R2 > len(arr) -> we only have to consider upto last element only 
+# if R2 > len(arr) -> we only have to consider # upto last element only 
