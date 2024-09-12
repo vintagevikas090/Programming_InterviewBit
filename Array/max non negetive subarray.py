@@ -21,15 +21,11 @@ Problem Constraints
 -109 <= A[i] <= 109
 
 
-
 Input Format
 The first and the only argument of input contains an integer array A, of length N.
 
-
-
 Output Format
 Return an array of integers, that is a subarray of A that satisfies the given conditions.
-
 
 
 Example Input
@@ -71,8 +67,6 @@ class Solution:
         
         for i in range(len(a)):
             if a[i] >= 0:
-                # if curr_len == 0:
-                #     curr_start = i 
                 curr_sum += a[i]
                 curr_len += 1
             else:
