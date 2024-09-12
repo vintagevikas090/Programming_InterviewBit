@@ -79,6 +79,7 @@ class Solution:
             # for a given i -> consider the range it covers
             R1 = i-B+1
             R2 = i+B-1
+                          #(***)
             for j in range(min(n-1, R2), max(-1, R1-1), -1):
                 # move from right to left to check for light
                 if A[j] == 1:
@@ -94,3 +95,6 @@ class Solution:
 
         return count
             
+
+#(***)
+if R2 > len(arr) -> we only have to consider upto last element only 
