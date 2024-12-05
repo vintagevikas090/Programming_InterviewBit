@@ -42,15 +42,16 @@ Explanation 2:
 
 '''
 
+
 class Solution:
 	# @param A : string
 	# @param B : string
 	# @return an integer
 	def strStr(self, A, B):
 		if(B not in A):
-            return -1
+            	     return -1
 			
-        l=len(B)
-        for i in range(len(A)-l+1):
-            if(A[i:i+l]==B):
-                return i
+	        l=len(B)
+	        for i in range(len(A)-l+1):
+	            if(A[i:i+l]==B):
+	                return i
