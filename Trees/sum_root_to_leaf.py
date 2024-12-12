@@ -62,7 +62,7 @@ class Solution:
         
         return left_paths + right_paths
     
-	def sumNumbers(self, A):
+    def sumNumbers(self, A):
         if A is None:
             return 0
         
