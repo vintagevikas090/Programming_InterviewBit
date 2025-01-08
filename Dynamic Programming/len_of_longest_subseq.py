@@ -11,7 +11,7 @@ Problem Constraints
 
 
 Input Format
-The first and the only argument contains an integer array A.
+The first and the only argument contains an integer array A
 
 
 
