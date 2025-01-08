@@ -1,15 +1,10 @@
 '''
 Given a 1D integer array A of length N, find the length of the longest subsequence which is first increasing (strictly) and then decreasing (strictly).
-
-
-
 Problem Constraints
 0 <= N <= 3000
-
  -107 <= A[i] <= 107
 
-
-
+ 
 Input Format
 The first and the only argument contains an integer array A
 
