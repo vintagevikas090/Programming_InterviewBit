@@ -1,14 +1,9 @@
 '''
 Problem Description
- 
- 
 
 Given an integer array A, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
-
 Note that you must do this in-place without making a copy of the array.
-
-
 
 Problem Constraints
 1 <= |A| <= 105
@@ -16,7 +11,6 @@ Problem Constraints
 
 Input Format
 First argument is array of integers A.
-
 
 Output Format
 Return an array of integers which satisfies above property.
